@@ -8,9 +8,9 @@
 
     ![TheInputTable](images/1_ListTable_Class.png)
 
-We want to highlight the students who are in the top 25% of height. In other words, the students with a height above the 75% percentile of height.
+    We want to highlight the students who are in the top 25% of height. In other words, the students with a height above the 75% percentile of height.
 
-## Create an expression-based parameter
+    ## Create an expression-based parameter
 
 1. Create an expression-based parameter to calculate the threshold: the 75th percentile of height.
 
@@ -40,7 +40,7 @@ We want to highlight the students who are in the top 25% of height. In other wor
             Percentile(ForAll, Height, 75)
             ```
 
-        ![ParameterExpression](images/4_NewParameterExpression_Height.png)
+            ![ParameterExpression](images/4_NewParameterExpression_Height.png)
 
         1. Click **OK**.
 
@@ -52,7 +52,7 @@ We want to highlight the students who are in the top 25% of height. In other wor
 
             ![ParameterCurrentValue](images/5_ParameterCurrentValue_Height.png)
 
-## Apply the Parameter to a Display Rule
+    ## Apply the Parameter to a Display Rule
 
 1. Create a display rule to highlight rows with a height above **Third Quartile Height** blue.
 
