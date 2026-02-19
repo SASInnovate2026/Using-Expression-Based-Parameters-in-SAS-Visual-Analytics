@@ -4,7 +4,7 @@ In this demonstration, we will see that parameters are not affected by interacti
 
 ## Open the Report
 
-1. Open the 3_InterludeParametersNotAffectedByFilters report.
+1. Open the report from the first demonstration. If you have closed it, create a new report using the **CLASS** table from the **HELPDATA** library.
 
     ## Create a Calculated Data Item
 
@@ -69,3 +69,5 @@ In this demonstration, we will see that parameters are not affected by interacti
 1. In the page control, click on **F**. Note that in the Text object, the value of the data item changes as the filter is applied. Meanwhile, the parameter value (which has the same expression) is unaffected by the filter.
 
     ![FilterAppliedToDataItemButNotParameter](images/13_Comparison_Interlude.png)
+
+1. Close the report.

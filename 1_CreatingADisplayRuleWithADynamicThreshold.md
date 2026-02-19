@@ -2,7 +2,9 @@
 
 ## Open the Report
 
-1. In SAS Visual Analytics, open the 1_CreatingADisplayRuleWithADynamicThreshold Report.
+1. In SAS Visual Analytics, create a new report.
+
+1. On the left, click on the **Data** pane, and then on **Add data**. Add the **CLASS** table from the **HELPDATA** library.
 
 1. View the list table. This is the input table. We have one line per student. There are two data items: the student name and their height (in inches).
 
@@ -64,7 +66,7 @@
 
     1. In the New Display rule window, enter the following values:
 
-        1. For Rule Type, ensure tgat **Expression** is selected.
+        1. For Rule Type, ensure that **Expression** is selected.
 
         1. Leave Label Empty.
 
@@ -79,3 +81,5 @@
 1. Confirm that the tall students are highlighted in the list table.
 
     ![ListTableWithDisplayRule](images/7_ListTable_Height.png)
+
+1. Keep this report open, we will use it later.

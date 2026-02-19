@@ -13,8 +13,8 @@ In this demo you create an expression-based parameter, and use the parameter to 
 1. From the Desktop, open SAS Visual Analytics and sign in to SAS Viya.
 
 1. Enter the following to log in:
-    - User ID:  ***Designer***
-    - Password: ***Student1***
+    - User ID:  ***Student***
+    - Password: ***Metadata0***
 
 1. Click **Sign In**.
 
