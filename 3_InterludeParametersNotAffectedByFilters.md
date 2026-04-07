@@ -1,8 +1,14 @@
-# Interlude: Parameters are not affected by Filters
+# Demo: Parameters are not affected by Filters
 
 In this demonstration, we will see that parameters are not affected by interactive or object filters.
 
 ## Open the Report
+
+1. On the desktop, double-click the **Google Chrome** icon and click on the bookmark to access SAS Viya.
+
+1. Enter the following to log in:
+    - User ID:  **Student**
+    - Password: **Metadata0** (where 0 is the number zero).
 
 1. Open the report from the first demonstration. If you have closed it, create a new report using the **CLASS** table from the **HELPDATA** library.
 

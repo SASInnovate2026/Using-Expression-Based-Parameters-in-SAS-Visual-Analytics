@@ -10,13 +10,11 @@ In this demo you create an expression-based parameter, and use the parameter to 
 
 ## Open the Report
 
-1. From the Desktop, open SAS Visual Analytics and sign in to SAS Viya.
+1. On the desktop, double-click the **Google Chrome** icon and click on the bookmark to access SAS Viya.
 
 1. Enter the following to log in:
-    - User ID:  ***Student***
-    - Password: ***Metadata0***
-
-1. Click **Sign In**.
+    - User ID:  **Student**
+    - Password: **Metadata0** (where 0 is the number zero).
 
 1. Navigate to the **SAS Content/Courses/VISUAL** folder.
 
@@ -203,4 +201,3 @@ In this demo you create an expression-based parameter, and use the parameter to 
    ![Rename](/images/230_151_015_Rename.png)
 
 1. Save the report.
-

@@ -1,14 +1,20 @@
 # Creating Expression-Based Parameters
 
-## Practice Duration
+## Demo Duration
 
-This practice will take 20 minutes to complete.
+This demo will take 20 minutes to complete.
 
-## Practice Objective
+## Demo Objective
 
-In this practice, you will create two expression-based parameters to dynamically set the minimum and maximum of a slider based on aggregations of a measure.
+In this demo, you will create two expression-based parameters to dynamically set the minimum and maximum of a slider based on aggregations of a measure.
 
 ## Open an existing report
+
+1. On the desktop, double-click the **Google Chrome** icon and click on the bookmark to access SAS Viya.
+
+1. Enter the following to log in:
+    - User ID:  **Student**
+    - Password: **Metadata0** (where 0 is the number zero).
 
 1. Open the **230_152_Creating Expression-Based Parameters** report from the **Courses/VISUAL** folder.
 
@@ -16,7 +22,7 @@ In this practice, you will create two expression-based parameters to dynamically
    <summary>Click to expand/collapse for solution</summary>
 
    **Solution:**
-   1. From the Desktop, open SAS Visual Analytics and sign in to SAS Viya.
+   1. On the desktop, double-click the **Google Chrome** icon and click on the bookmark to access SAS Viya.
    1. In the upper left corner, click ![ApplicationsMenu](/images/CDT-12533-10-image1.png) (**Show list of applications**) and select **Explore and Visualize**. SAS Visual Analytics appears.
    1. Click **SAS Content**.
    1. Navigate to the **Courses/VISUAL** folder.

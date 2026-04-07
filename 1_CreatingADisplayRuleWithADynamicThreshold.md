@@ -2,6 +2,12 @@
 
 ## Open the Report
 
+1. On the desktop, double-click the **Google Chrome** icon and click on the bookmark to access SAS Viya.
+
+1. Enter the following to log in:
+    - User ID:  **Student**
+    - Password: **Metadata0** (where 0 is the number zero).
+
 1. In SAS Visual Analytics, create a new report.
 
 1. On the left, click on the **Data** pane, and then on **Add data**. Add the **CLASS** table from the **HELPDATA** library.
