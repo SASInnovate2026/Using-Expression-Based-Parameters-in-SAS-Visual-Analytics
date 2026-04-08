@@ -16,7 +16,7 @@ In this demo, you will create two expression-based parameters to dynamically set
     - User ID:  **Student**
     - Password: **Metadata0** (where 0 is the number zero).
 
-1. Open the **230_152_Creating Expression-Based Parameters** report from the **Courses/VISUAL** folder.
+1. Open the **230_152_Creating Expression-Based Parameters** report from the **SAS Content/Courses/VISUAL** folder.
 
    <p><details>
    <summary>Click to expand/collapse for solution</summary>
@@ -25,7 +25,7 @@ In this demo, you will create two expression-based parameters to dynamically set
    1. On the desktop, double-click the **Google Chrome** icon and click on the bookmark to access SAS Viya.
    1. In the upper left corner, click ![ApplicationsMenu](/images/CDT-12533-10-image1.png) (**Show list of applications**) and select **Explore and Visualize**. SAS Visual Analytics appears.
    1. Click **SAS Content**.
-   1. Navigate to the **Courses/VISUAL** folder.
+   1. Navigate to the **SAS Content/Courses/VISUAL** folder.
    1. Double-click the **230_152_Creating Expression-Based Parameters** report to open it.
    1. Verify you are editing the report.
    </details></p>

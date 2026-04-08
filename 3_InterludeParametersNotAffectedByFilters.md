@@ -18,9 +18,7 @@ In this demonstration, we will see that parameters are not affected by interacti
 
 1. Enter the following values in the New Calculated Item window:
 
-    1. Name: **Number of Students**
-
-    1. Format: **F3.**
+    1. Name: **Number of Students (Calculated item)**
 
     1. For the expression, enter:
 
@@ -28,19 +26,21 @@ In this demonstration, we will see that parameters are not affected by interacti
         Distinct(ForAll, Name)
         ```
 
+    1. Format: **F3.** (A float with a width of 3 and 0 decimals).
+
     1. Click **OK**.
 
     ## Create an Expression-based Parameter for the Number of Students
 
-1. In the **Data** pane, click on **New data item** and then **Calculated item**.
+1. In the **Data** pane, click on **New data item** and then **Parameter**.
 
 1. Enter the following values:
 
-    1. Name: **Number of Students**
+    1. Name: **Number of Students (Parameter)**
 
     1. Type: **Numeric**
 
-    1. Format: **F3**
+    1. Format: **F3** (A float with a width of 3 and 0 decimals).
 
     1. For default value, click on edit as expression and enter the following expression:
 
@@ -76,4 +76,4 @@ In this demonstration, we will see that parameters are not affected by interacti
 
     ![FilterAppliedToDataItemButNotParameter](images/13_Comparison_Interlude.png)
 
-1. Close the report.
+1. Close the report. You do not need to save it.

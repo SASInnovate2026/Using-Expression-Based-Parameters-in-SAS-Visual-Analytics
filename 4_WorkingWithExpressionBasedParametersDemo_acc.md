@@ -38,21 +38,11 @@ In this demo you create an expression-based parameter, and use the parameter to 
 
 1. In the **Name** field, enter **% of Total Sales**.
 
-1. In the expression editor, click the **Operators** tab and select the **Division** operator.
+1. Enter the following expression:
 
-1. Select the first term in the division expression.
-
-1. Click the **Functions** button and select the **Sum** function in the **Aggregated (simple)** section.
-
-   ![Sum function](/images/230_151_002_SumFunction.png)
-
-1. Select **ByGroup** for the context and **Number of Sales** for the measure.
-
-1. Select the second term in the division expression.
-
-1. Click the **Functions** button and select the **Sum** function in the **Aggregated (simple)** section.
-
-1. Select **ForAll** for the context and **Number of Sales** for the measure.
+   >```sas
+   >Sum(ByGroup, 'Number of Sales'n)/Sum(ForAll, 'Number of Sales'n)
+   >```
 
 1. In the **Format** field, choose  **PERCENT12.2**.
 
@@ -96,17 +86,11 @@ In this demo you create an expression-based parameter, and use the parameter to 
 
    This opens an expression editor where you can define the value of the parameter, rather than defining the value using a control object.
 
-1. We need to create a parameter that stores the total number of sales globally. Click the **Functions** button and select **Sum** from the **Aggregated (simple)** group.
+1. Enter the following expression:
 
-   ![Sum function](/images/230_151_007_SumFunction.png)
-
-1. For the **Context** field, select **ForAll**.
-
-1. For the **measure** field, select **Number of Sales**.
-
-   ![New sum](/images/230_151_008_NewSum.png)
-
-1. Click **OK**.
+   >```sas
+   >Sum(ForAll, 'Number of Sales'n)
+   >```
 
 1. Click **OK** to finish defining the parameter value.
 
@@ -132,19 +116,11 @@ In this demo you create an expression-based parameter, and use the parameter to 
 
 1. In the **Name** field, enter **% of Total Sales (Parameter)**.
 
-1. In the expression editor, click the **Operators** tab and select the **Division** operator.
+1. Enter the following expression:
 
-1. Select the first term in the division expression.
-
-1. Click the **Functions** button and select the **Sum** function in the **Aggregated (simple)** section.
-
-   ![Sum function](/images/230_151_002_SumFunction.png)
-
-1. Select **ByGroup** for the context and **Number of Sales** for the measure.
-
-1. Select the second term in the division expression.
-
-1. Click the **Data** tab and select the **TotalSales** parameter in the **Parameters** group.
+   >```sas
+   >Sum(ByGroup, 'Number of Sales'n) / TotalSales
+   >```
 
 1. For the **Format** field, select **PERCENT12.2**.
 

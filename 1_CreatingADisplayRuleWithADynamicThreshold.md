@@ -10,9 +10,9 @@
 
 1. In SAS Visual Analytics, create a new report.
 
-1. On the left, click on the **Data** pane, and then on **Add data**. Add the **CLASS** table from the **HELPDATA** library.
+1. On the left, click on the **Data** pane, and then on **Add data**. Add the **CLASS** table from the **HELPDATA** library
 
-1. View the list table. This is the input table. We have one line per student. There are two data items: the student name and their height (in inches).
+1. Create a list table displaying **Name** and **Height**. This is the input table. We have one line per student.
 
     ![TheInputTable](images/1_ListTable_Class.png)
 
@@ -79,6 +79,10 @@
         1. For Operator ensure that **>** (greater than) is selected.
 
         1. For Value: select **third Quartile Height**.
+
+        1. For Background color, select **Light blue**.
+
+        1. For Placement, select **Row**.
 
         1. Click **OK**.
 
