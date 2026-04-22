@@ -1,5 +1,5 @@
 # Using-Expression-Based-Parameters-in-SAS-Visual-Analytics
-Using Expression-Based Parameters in SAS® Visual Analytics
+Join this session to learn how to unlock the power of expression-based parameters in  SAS®  Visual Analytics. Learn how to create dynamic references lines, set the initial values of control objects, calculate percentages of totals unaffected by filters and more!
 
 ## Important Information
 
